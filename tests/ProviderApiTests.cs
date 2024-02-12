@@ -133,9 +133,6 @@ namespace tests
                     .WithProviderStateUrl(new Uri($"{_pactServiceUri}/provider-states"))
                     .Verify();
             }
-
-
-
         }
 
         #region IDisposable Support
