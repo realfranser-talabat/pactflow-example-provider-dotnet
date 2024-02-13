@@ -16,8 +16,10 @@ namespace Products
 
       private ProductRepository()
       {
-        this._products.Add(new Product("1", "food", "pancake", "1.0.0"));
-        this._products.Add(new Product("2", "food", "sanwhich", "1.0.0"));
+        _products.Add(new Product("1", "food", "pancake", "1.0.0"));
+        _products.Add(new Product("2", "food", "sanwhich", "1.0.0"));
+        _products.Add(new Product("27", "food", "burger", "1.0.0"));
+        _products.Add(new Product("111", "food", "pizza", "1.0.0"));
       }
 
       public static ProductRepository GetInstance()
